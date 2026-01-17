@@ -98,13 +98,13 @@ x_values,y_values = calculer_valeurs(xmin,xmax,pas,coeffs)
 
 # =========================
 # Couleurs
-colors = ["blue", "green", "red"]
-
+colors = ["blue", "green", "red", "orange", "purple"]
+linestyles = ["-","--","-.",":"]
 # =========================
 # Tracé
 for i in range(N):
     label = afficher_polynome(coeffs[i])
-    plt.plot(x_values, y_values[i], color=colors[i], label=label)
+    plt.plot(x_values, y_values[i], color=colors[i % len(colors)], label=label, linestyle=linestyles[i%len(linestyles)])
 
 plt.title("Tracé de polynômes")
 plt.xlabel("x")
