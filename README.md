@@ -1,3 +1,4 @@
+
 Visualisation de polynômes en Python
 🎯 Objectif du projet
 
@@ -85,3 +86,4 @@ Ajouter l’affichage des racines ou dérivées
 Ajouter plus de styles et couleurs pour les tracés
 
 Optimiser la saisie pour un plus grand nombre de polynômes
+
